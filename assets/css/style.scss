@@ -1,0 +1,40 @@
+---
+---
+@import "{{ site.theme }}";
+
+body { overflow-x: hidden }
+
+a:-webkit-any-link { text-decoration: inherit }
+a:-webkit-any-link:hover { text-decoration: underline }
+
+abbr { border-bottom: 1px dotted $body-foreground; cursor: help }
+abbr { text-decoration: none }
+
+blockquote { background: rgba(0, 0, 0, .2); border: none }
+blockquote { margin-left: -100%; margin-right: -100%; padding: 2em 100% }
+
+hr { border-bottom-color: #5f5f5f; color: #5f5f5f; margin: 2em 0 }
+
+h1, h2, h3, h4, h5, h6 { color: inherit !important }
+
+header { border-bottom-color: #5f5f5f }
+
+header h1:before { content: none }
+header h1 { font-size: 24px; letter-spacing: 0; margin-left: 0 }
+header h1 .usr { color: #ff00d7 }
+header h1 .srv { color: #ff5f00 }
+header h1 .dir { color: #ffd700 }
+header h1 .git { color: #5f5faf }
+
+header h2:before { content: '$ ' }
+header h2 { letter-spacing: 0 }
+
+section#downloads { display: none }
+
+#main_content h2 { font-size: 20px; margin-bottom: .1em }
+#main_content ul + h2 { margin-top: 2em }
+
+#main_content h3::before { content: '> ' }
+#main_content h3 { margin-left: -21px }
+
+ul li { list-style-image: none }

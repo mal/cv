@@ -1,0 +1,9 @@
+theme: jekyll-theme-hacker
+
+title: >-
+  <span class="usr">mal</span> at
+  <span class="srv">github</span> in
+  <span class="dir">~/code/cv</span> on
+  <span class="git">master</span>
+
+description: grep 'work' ~/.zhistory
